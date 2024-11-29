@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavigationBar from './components/Navbar';
+import './assets/css/style.css';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -8,8 +9,10 @@ import Blog from './components/Blog';
 import Forex from './components/Forex';
 
 import './assets/css/style.css';
-import Stocks from './components/Stock';
-
+import Stocks from './components/Stocks';
+import Crypto from './components/Crypto';
+import Economy from './components/Economy';
+import Commodities from './components/Commodities';
 function App() {
   return (
     <Router>
@@ -21,6 +24,10 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/forex" element={<Forex />} />
         <Route path="/stocks" element={<Stocks />} />
+        <Route path="/stocks" element={<Stocks />} />
+        <Route path="/crypto" element={<Crypto />} />
+        <Route path="/economy" element={<Economy />} />
+        <Route path="/commodities" element={<Commodities />} />
       </Routes>
     </Router>
   );

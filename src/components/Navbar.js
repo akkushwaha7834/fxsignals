@@ -26,9 +26,9 @@ function NavigationBar() {
             <NavDropdown title="Market Outlook" id="market-outlook-dropdown">
               <NavDropdown.Item as={Link} to="/forex">Forex Market</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/stocks">Stock Market</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/outlook/crypto">Cryptocurrency</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/outlook/commodities">Commodities</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/outlook/economy">Global Economy</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/crypto">Cryptocurrency</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/commodities">Commodities</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/economy">Global Economy</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
