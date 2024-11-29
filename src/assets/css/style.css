@@ -1,0 +1,28 @@
+.bg-dark{
+    background-color: #fff;
+}
+/* src/assets/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #343a40 !important; /* Darker navbar */
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .nav-link:hover {
+    color: #FFC007 !important; /* Highlight color on hover */
+  }
+  
