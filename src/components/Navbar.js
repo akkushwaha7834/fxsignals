@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/fxsignals-logo.png'; // Adjust the path if needed
 
@@ -22,6 +22,14 @@ function NavigationBar() {
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
+            {/* Dropdown Menu */}
+            <NavDropdown title="Market Outlook" id="market-outlook-dropdown">
+              <NavDropdown.Item as={Link} to="/forex">Forex Market</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/stocks">Stock Market</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/outlook/crypto">Cryptocurrency</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/outlook/commodities">Commodities</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/outlook/economy">Global Economy</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
           </Nav>

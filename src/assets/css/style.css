@@ -19,10 +19,13 @@ body {
   }
   
   .nav-link {
-    color: #fff !important;
+    color: #FFC007 !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin: 0 10px !important;
   }
   
   .nav-link:hover {
-    color: #FFC007 !important; /* Highlight color on hover */
+    color: #fff !important; /* Highlight color on hover */
   }
   
