@@ -35,3 +35,110 @@ body {
 .dropdown-item:focus, .dropdown-item:hover{
     background-color: #ffd203 !important;
 }
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.grid-img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-item:hover .grid-img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.grid-item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.overlay p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Footer Styling */
+.bgc-primary {
+  background-color: #0c4b7b; /* Modify this color as needed */
+  color: white;
+}
+
+h5.fw-medium {
+  font-weight: 500;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+.list-unstyled li a {
+  color: white;
+  text-decoration: none;
+}
+
+.list-unstyled li a:hover {
+  text-decoration: underline;
+}
+
+/* Sticky Buttons */
+.nowcalling {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+}
+
+.nowcalling .lcol,
+.nowcalling .rcol {
+  background-color: #25d366;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.nowcalling .lcol a,
+.nowcalling .rcol a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nowcalling .lcol a:hover,
+.nowcalling .rcol a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nowcalling {
+    bottom: 10px;
+  }
+}

@@ -9,12 +9,13 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Forex from './components/Forex';
-
-import './assets/css/style.css';
 import Stocks from './components/Stocks';
 import Crypto from './components/Crypto';
 import Economy from './components/Economy';
 import Commodities from './components/Commodities';
+import Footer from './components/Footer';
+
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -37,6 +38,7 @@ function App() {
         <Route path="/economy" element={<Economy />} />
         <Route path="/commodities" element={<Commodities />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
