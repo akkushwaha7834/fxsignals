@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavigationBar from './components/Navbar';
 import './assets/css/style.css';
@@ -14,6 +16,12 @@ import Crypto from './components/Crypto';
 import Economy from './components/Economy';
 import Commodities from './components/Commodities';
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200, // Duration of animation in milliseconds
+      once: true, // Whether animation should happen only once - while scrolling down
+    });
+  }, []);
   return (
     <Router>
       <NavigationBar />
