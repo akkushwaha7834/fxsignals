@@ -10,22 +10,22 @@ function Home() {
     {
       img: slide1, // Use imported images instead of strings
       title: 'Best Collection',
-      subtitle: 'Vaishali Escorts Service',
+      subtitle: 'Best Collection',
     },
     {
       img: slide2,
-      title: 'Vaishali Escorts Service',
-      subtitle: 'Vaishali Escorts Hot Service',
+      title: 'Best Collection',
+      subtitle: 'Best Collection',
     },
     {
       img: slide3,
-      title: 'Vaishali Escorts Phone WhatsApp',
-      subtitle: 'Vaishali contact number',
+      title: 'Best Collection',
+      subtitle: 'Best Collection',
     },
     {
       img: slide1, // Reusing images from carousel for the grid
-      title: 'Vaishali Escorts Photo',
-      subtitle: 'Vaishali Indian Escorts',
+      title: 'Best Collection',
+      subtitle: 'Best Collection',
     },
   ];
 
@@ -54,7 +54,7 @@ function Home() {
               alt="Slide 1"
             />
             <div className="carousel-caption d-none d-md-block">
-              <h2 className="fw-bold text-white">Amit Kushwaha</h2>
+              <h2 className="fw-bold text-white">Lorem Ipsum</h2>
               <p className="text-light">Discover expert strategies for maximizing your financial potential.</p>
             </div>
           </div>
@@ -66,7 +66,7 @@ function Home() {
               alt="Slide 2"
             />
             <div className="carousel-caption d-none d-md-block">
-              <h2 className="fw-bold text-white">Kiran Maurya</h2>
+              <h2 className="fw-bold text-white">Lorem Ipsum</h2>
               <p className="text-light">Stay ahead with cutting-edge trends and market updates.</p>
             </div>
           </div>
@@ -78,7 +78,7 @@ function Home() {
               alt="Slide 3"
             />
             <div className="carousel-caption d-none d-md-block">
-              <h2 className="fw-bold text-white">Seamless Trading Experience</h2>
+              <h2 className="fw-bold text-white">Lorem Ipsum</h2>
               <p className="text-light">Achieve success with unparalleled tools and expert support.</p>
             </div>
           </div>

@@ -83,8 +83,9 @@ body {
 
 /* Footer Styling */
 .bgc-primary {
-  background-color: #0c4b7b; /* Modify this color as needed */
+  background-color: #000000; /* Modify this color as needed */
   color: white;
+  padding: 50px 0 30px;
 }
 
 h5.fw-medium {
