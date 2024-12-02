@@ -9,23 +9,23 @@ function Home() {
   const items = [
     {
       img: slide1, // Use imported images instead of strings
-      title: 'Best Collection',
-      subtitle: 'Best Collection',
+      title: 'Lorem Ipsum',
+      subtitle: 'Lorem Ipsum',
     },
     {
       img: slide2,
-      title: 'Best Collection',
-      subtitle: 'Best Collection',
+      title: 'Lorem Ipsum',
+      subtitle: 'Lorem Ipsum',
     },
     {
       img: slide3,
-      title: 'Best Collection',
-      subtitle: 'Best Collection',
+      title: 'Lorem Ipsum',
+      subtitle: 'Lorem Ipsum',
     },
     {
       img: slide1, // Reusing images from carousel for the grid
-      title: 'Best Collection',
-      subtitle: 'Best Collection',
+      title: 'Lorem Ipsum',
+      subtitle: 'Lorem Ipsum',
     },
   ];
 
